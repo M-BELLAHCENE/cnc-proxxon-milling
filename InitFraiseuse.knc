@@ -1,0 +1,9 @@
+; Le programme va en HOME le plus vite possible.
+; Puis on initialise la vitesse d'avance à 6x5=30mm/s
+; Cette vitesse est plus lente mais pas invisible.
+; Le WNP, origine des mouvements absolus est en HOME.
+INITIALISATION	G01 F200
+			G76
+			G54
+			G01 F5
+G99
